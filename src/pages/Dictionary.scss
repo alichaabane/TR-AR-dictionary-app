@@ -1,0 +1,17 @@
+.card {
+  justify-content: center;
+  text-align: center;
+}
+
+.spacing-card {
+  justify-content: space-between;
+  margin: 10px !important;
+}
+
+.images {
+  object-fit: fill !important;
+}
+
+.display-text {
+  visibility: hidden;
+}

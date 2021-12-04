@@ -1,0 +1,43 @@
+.card-page {
+  @media (max-width: 576px) {
+    width: 95%;
+    min-height: auto;
+  }
+  @media (min-width: 577px) and (max-width: 1025px) {
+    width: 85%;
+    min-height: 30%;
+  }
+  width: 50%;
+  min-height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.card {
+  justify-content: center;
+  text-align: center;
+
+}
+
+.card-header .css-1qvr50w-MuiTypography-root {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.card-action {
+  justify-content: center;
+  text-align: center;
+}
+
+.IconButton {
+  transform: scale(1.5);
+  color: #58c2ee;
+}
+
+a {
+  text-decoration: none;
+  color: #58c2ee;
+}
