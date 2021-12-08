@@ -1,6 +1,7 @@
 .card {
   justify-content: center;
   text-align: center;
+  padding: 10px;
 }
 
 .spacing-card {
@@ -9,9 +10,15 @@
 }
 
 .images {
+  width: 100% !important;
   object-fit: fill !important;
+  @media (max-width: 567px) {
+    height: 200px !important;
+  }
+  height: 300px;
 }
 
-.display-text {
+.text {
   visibility: hidden;
+  padding: 0 !important;
 }

@@ -23,7 +23,6 @@ function Dictionary() {
                     <Card className={'card'}>
                         <CardMedia
                             component="img"
-                            height="200"
                             className={'images'}
                             image={image1}
                             alt=""
@@ -36,13 +35,13 @@ function Dictionary() {
                             title={'Ettahiet / Selamlamak'}
                         />
                         <CardContent>
-                            <Typography className={'display-text'} variant="body2" color="textSecondary">
+                            <Typography className={'text'} variant="body2" color="textSecondary">
                                 {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
                             </Typography>
                         </CardContent>
                         <CardActions className={'card-action'}>
                             <Button variant="outlined" size="medium">
-                                <Link to="/dictionary">Lets Start ! </Link>
+                                <Link to="/salute">Lets Start ! </Link>
                             </Button>
                         </CardActions>
                     </Card>
@@ -51,7 +50,6 @@ function Dictionary() {
                     <Card className={'card'}>
                         <CardMedia
                             component="img"
-                            height="200"
                             className={'images'}
                             image={image2}
                             alt=""
@@ -63,14 +61,12 @@ function Dictionary() {
                             className='card-header'
                             title={'Mekla / Gıdalar'}
                         />
-                        <CardContent>
-                            <Typography className={'display-text'} variant="body2" color="textSecondary">
-                                {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
-                            </Typography>
-                        </CardContent>
+                        <Typography className={'text'} variant="body2" color="textSecondary">
+                            {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
+                        </Typography>
                         <CardActions className={'card-action'}>
                             <Button variant="outlined" size="medium">
-                                <Link to="/dictionary">Lets Start ! </Link>
+                                <Link to="/food">Lets Start ! </Link>
                             </Button>
                         </CardActions>
                     </Card>
@@ -79,7 +75,6 @@ function Dictionary() {
                     <Card className={'card'}>
                         <CardMedia
                             component="img"
-                            height="200"
                             className={'images'}
                             image={image3}
                             alt=""
@@ -91,14 +86,12 @@ function Dictionary() {
                             className='card-header'
                             title={'Shopping / alışveriş yapmak'}
                         />
-                        <CardContent>
-                            <Typography className={'display-text'} variant="body2" color="textSecondary">
-                                {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
-                            </Typography>
-                        </CardContent>
+                        <Typography className={'text'} variant="body2" color="textSecondary">
+                            {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
+                        </Typography>
                         <CardActions className={'card-action'}>
                             <Button variant="outlined" size="medium">
-                                <Link to="/dictionary">Lets Start ! </Link>
+                                <Link to="/shopping">Lets Start ! </Link>
                             </Button>
                         </CardActions>
                     </Card>
@@ -107,7 +100,6 @@ function Dictionary() {
                     <Card className={'card'}>
                         <CardMedia
                             component="img"
-                            height="200"
                             className={'images'}
                             image={image4}
                             alt=""
@@ -119,14 +111,12 @@ function Dictionary() {
                             className='card-header'
                             title={'Hob / Aşk'}
                         />
-                        <CardContent>
-                            <Typography className={'display-text'} variant="body2" color="textSecondary">
-                                {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
-                            </Typography>
-                        </CardContent>
+                        <Typography className={'text'} variant="body2" color="textSecondary">
+                            {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
+                        </Typography>
                         <CardActions className={'card-action'}>
                             <Button variant="outlined" size="medium">
-                                <Link to="/dictionary">Lets Start ! </Link>
+                                <Link to="/love">Lets Start ! </Link>
                             </Button>
                         </CardActions>
                     </Card>
@@ -135,7 +125,6 @@ function Dictionary() {
                     <Card className={'card'}>
                         <CardMedia
                             component="img"
-                            height="200"
                             className={'images'}
                             image={image5}
                             alt=""
@@ -147,14 +136,12 @@ function Dictionary() {
                             className='card-header'
                             title={'Soueelat / Sorular'}
                         />
-                        <CardContent>
-                            <Typography className={'display-text'} variant="body2" color="textSecondary">
-                                {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
-                            </Typography>
-                        </CardContent>
+                        <Typography className={'text'} variant="body2" color="textSecondary">
+                            {'Welcome to our Turkish-Tunisian dictionary that will help you to learn major important words in the two languages'}
+                        </Typography>
                         <CardActions className={'card-action'}>
                             <Button variant="outlined" size="medium">
-                                <Link to="/dictionary">Lets Start ! </Link>
+                                <Link to="/ask">Lets Start ! </Link>
                             </Button>
                         </CardActions>
                     </Card>
