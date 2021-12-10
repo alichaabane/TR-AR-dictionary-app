@@ -1,4 +1,3 @@
-import './page.module.scss';
 
 function Food() {
     return (
