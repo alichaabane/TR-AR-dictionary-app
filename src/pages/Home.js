@@ -9,9 +9,9 @@ function Home() {
     const AppName = 'My Tunisian-Turkish Dictionary'
     return (
         <div className={'card-page'}>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} className={'row-container'}>
                 <Grid item xs={12} md={12} sm={12}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <IconButton className={'IconButton'}>
                             <MenuBookIcon className={'IconButton'}/>
                         </IconButton>

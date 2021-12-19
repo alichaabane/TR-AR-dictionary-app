@@ -18,9 +18,10 @@ function Dictionary() {
                 direction="column"
                 justifyContent="center"
                 alignItems="center"
+                className={'row-container'}
             >
                 <Grid item className={'spacing-card'}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <CardMedia
                             component="img"
                             className={'images'}
@@ -47,7 +48,7 @@ function Dictionary() {
                     </Card>
                 </Grid>
                 <Grid item className={'spacing-card'}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <CardMedia
                             component="img"
                             className={'images'}
@@ -72,7 +73,7 @@ function Dictionary() {
                     </Card>
                 </Grid>
                 <Grid item className={'spacing-card'}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <CardMedia
                             component="img"
                             className={'images'}
@@ -97,7 +98,7 @@ function Dictionary() {
                     </Card>
                 </Grid>
                 <Grid item className={'spacing-card'}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <CardMedia
                             component="img"
                             className={'images'}
@@ -122,7 +123,7 @@ function Dictionary() {
                     </Card>
                 </Grid>
                 <Grid item className={'spacing-card'}>
-                    <Card className={'card'}>
+                    <Card className={'card cyan'}>
                         <CardMedia
                             component="img"
                             className={'images'}
